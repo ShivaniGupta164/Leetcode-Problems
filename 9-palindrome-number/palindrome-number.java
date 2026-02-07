@@ -6,8 +6,6 @@ class Solution {
             int rem=x%10;
             sum=sum*10+rem;
             x=x/10;
-
-
         }
         if(sum!=original){
             return false;
